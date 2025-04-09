@@ -46,4 +46,5 @@ This addon is licensed under the [MIT License](LICENSE)
 ## 🧙 Author
 
 Made by **Anfall** - Tel'Abim - [Turtle WoW](https://turtle-wow.org/)
+
 Feedback and improvements not welcome!
