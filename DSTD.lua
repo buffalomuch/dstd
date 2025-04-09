@@ -1,0 +1,5 @@
+local f = CreateFrame("Frame")
+f:RegisterEvent("PLAYER_ENTERING_WORLD")
+f:SetScript("OnEvent", function(self, event, ...)
+	SetCVar("CombatDamage", 0)
+end)
