@@ -16,7 +16,7 @@ This micro-addon disables that option automatically.
 
 - Tiny (<200 bytes)
 
-## How it works
+## ⚙️ How it works
 
 The addon listens to the ```ADDON_LOADED``` event and runs:
 
