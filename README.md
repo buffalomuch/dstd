@@ -18,7 +18,7 @@ This micro-addon disables that option automatically.
 
 ## How it works
 
-The addon listens to the ```PLAYER_ENTERING_WORLD``` even and runs:
+The addon listens to the ```ADDON_LOADED``` even and runs:
 
 ```lua
 SetCVar("CombatDamage", 0)
