@@ -1,5 +1,8 @@
+local addonName = "DSTD"
 local f = CreateFrame("Frame")
-f:RegisterEvent("PLAYER_ENTERING_WORLD")
-f:SetScript("OnEvent", function(self, event, ...)
-	SetCVar("CombatDamage", 0)
+f:RegisterEvent("ADDON_LOADED")
+f:SetScript("OnEvent", function()
+	if arg1 == addonName then
+		SetCVar("CombatDamage", 0)
+	end
 end)
